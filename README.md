@@ -46,7 +46,7 @@ BUILD SUCCESSFUL (total time: 0 seconds)
 1. Clone este repositório:
 git clone https://github.com/AbN13/ProjetoIphone.git
 
-2. Importe o projeto em uma IDE como o NetBeans.
+2. Importe o projeto em uma IDE como o VScode, IntelliJ, Eclipse e/ou NetBeans.
 
 3. Execute a classe `Main.java`.
 
