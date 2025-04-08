@@ -1,61 +1,50 @@
-# Projeto iPhone - Desafio de POO (Bootcamp)
+# 📱 Projeto iPhone
 
-Este projeto foi desenvolvido como parte de um desafio de Programação Orientada a Objetos (POO) durante um bootcamp, com base no vídeo de apresentação do iPhone em 2007.
+Este projeto simula as funcionalidades básicas de um iPhone utilizando Java e o conceito de Programação Orientada a Objetos (POO).
 
-## 📱 Objetivo
+## ✨ Funcionalidades implementadas
 
-Modelar e implementar em Java uma representação de um **iPhone**, contendo as funcionalidades principais descritas no vídeo oficial de lançamento.
+- **Reprodutor Musical**
+  - Tocar música
+  - Selecionar música
 
-O projeto segue os pilares da POO, como encapsulamento, abstração e uso de interfaces.
+- **Aparelho Telefônico**
+  - Ligar para um número
 
-## 🔧 Funcionalidades implementadas
-
-O iPhone simulado possui as seguintes capacidades, organizadas em três interfaces:
-
-### 🎵 Reprodutor Musical
-- `tocar()`
-- `pausar()`
-- `selecionarMusica(String musica)`
-
-### 📞 Aparelho Telefônico
-- `ligar(String numero)`
-- `atender()`
-- `iniciarCorreioVoz()`
-
-### 🌐 Navegador de Internet
-- `exibirPagina(String url)`
-- `adicionarNovaAba()`
-- `atualizarPagina()`
+- **Navegador de Internet**
+  - Exibir uma página da web
+  - Adicionar nova aba
+  - Atualizar página
 
 ## 🧩 Estrutura do Projeto
 
-- Interfaces:
-  - `ReprodutorMusical.java`
-  - `AparelhoTelefonico.java`
-  - `NavegadorInternet.java`
-- Classe principal que implementa todas as interfaces:
-  - `iPhone.java`
-- Classe de execução:
-  - `Main.java`
+O projeto está dividido em classes que representam cada funcionalidade:
 
-## ▶️ Como executar
+- `iPhone.java`: Classe principal que implementa as interfaces dos módulos.
+- `ReprodutorMusical.java`: Interface com métodos relacionados à música.
+- `AparelhoTelefonico.java`: Interface com métodos para ligação.
+- `NavegadorInternet.java`: Interface com métodos de navegação.
+- `Main.java`: Classe com o método `main` que executa o programa.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-iphone.git
+## 💻 Exemplo de saída esperada
 
-2. Importe no NetBeans (ou outro IDE de sua preferência).
-
-3. Execute a classe Main.java.
-
-## ✅ Exemplo de saída esperada
-
-text
-Copiar
-Editar
+run:
 Tocando música...
-Selecionando música: Imagine – John Lennon
+Selecionando música: Imagine - John Lennon
 Ligando para: 11999998888
+Exibindo página: https://google.com
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+## 🚀 Como executar
+
+1. Clone este repositório:
+git clone https://github.com/AbN13/ProjetoIphone.git
+
+2. Importe o projeto em uma IDE como o NetBeans.
+
+3. Execute a classe `Main.java`.
+
 
 ## 🎥 Referência
 
