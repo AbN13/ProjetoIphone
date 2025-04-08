@@ -29,15 +29,10 @@ O projeto está dividido em classes que representam cada funcionalidade:
 ## 💻 Exemplo de saída esperada
 
 run:
-
 Tocando música...
-
 Selecionando música: Imagine - John Lennon
-
 Ligando para: 11999998888
-
 Exibindo página: https://google.com
-
 BUILD SUCCESSFUL (total time: 0 seconds)
 
 
